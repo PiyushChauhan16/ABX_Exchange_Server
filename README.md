@@ -11,7 +11,8 @@ NOTE: There will be a file called "output.log" which contains the final json and
 
 # Compiler
 ```
-> g++ --version                                                                                                                                                     g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0            
+> g++ --version
+g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0            
 ```
 
 # CPP Version
