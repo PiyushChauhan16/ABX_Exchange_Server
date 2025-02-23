@@ -1,0 +1,194 @@
+[ main.x.cpp : 56 ] DEB main(): Starting ABX Client
+[ ABXMarketConnection.h : 159 ] INF start(): starting ABX_EXCHANGE client
+[ TCPSocket.h : 93 ] DEB connect(): 4
+[ TCPSocket.h : 103 ] INF connect(): connected to server
+[ TCPSocket.h : 128 ] DEB write(): 1 bytes written on wire 
+[ SpinDispatcher.h : 79 ] INF process(): timed out! no data received, stopping dispatcher
+[ TCPSocket.h : 128 ] DEB write(): 1 bytes written on wire 
+[ SpinDispatcher.h : 71 ] DEB process(): Received data of size AAPLB at socket 4
+[ ABXMarketConnection.h : 53 ] INF newSymbol(): received new symbol packet
+[ ABXMarketConnection.h : 41 ] INF dumpPacket(): [EXCHANGE PACKET]
+[ ABXMarketConnection.h : 42 ] INF dumpPacket(): symbol:AAPL
+[ ABXMarketConnection.h : 43 ] INF dumpPacket(): side:B
+[ ABXMarketConnection.h : 44 ] INF dumpPacket(): quantity:50
+[ ABXMarketConnection.h : 45 ] INF dumpPacket(): price:100
+[ ABXMarketConnection.h : 46 ] INF dumpPacket(): seq_num:1
+[ ABXMarketConnection.h : 47 ] INF dumpPacket(): 
+[ SpinDispatcher.h : 71 ] DEB process(): Received data of size MSFTB at socket 4
+[ ABXMarketConnection.h : 53 ] INF newSymbol(): received new symbol packet
+[ ABXMarketConnection.h : 41 ] INF dumpPacket(): [EXCHANGE PACKET]
+[ ABXMarketConnection.h : 42 ] INF dumpPacket(): symbol:MSFT
+[ ABXMarketConnection.h : 43 ] INF dumpPacket(): side:B
+[ ABXMarketConnection.h : 44 ] INF dumpPacket(): quantity:25
+[ ABXMarketConnection.h : 45 ] INF dumpPacket(): price:150
+[ ABXMarketConnection.h : 46 ] INF dumpPacket(): seq_num:8
+[ ABXMarketConnection.h : 47 ] INF dumpPacket(): 
+[ SpinDispatcher.h : 71 ] DEB process(): Received data of size MSFTB at socket 4
+[ ABXMarketConnection.h : 53 ] INF newSymbol(): received new symbol packet
+[ ABXMarketConnection.h : 41 ] INF dumpPacket(): [EXCHANGE PACKET]
+[ ABXMarketConnection.h : 42 ] INF dumpPacket(): symbol:MSFT
+[ ABXMarketConnection.h : 43 ] INF dumpPacket(): side:B
+[ ABXMarketConnection.h : 44 ] INF dumpPacket(): quantity:20
+[ ABXMarketConnection.h : 45 ] INF dumpPacket(): price:148
+[ ABXMarketConnection.h : 46 ] INF dumpPacket(): seq_num:10
+[ ABXMarketConnection.h : 47 ] INF dumpPacket(): 
+[ SpinDispatcher.h : 89 ] INF process(): MarketConnection disconnected
+[ TCPSocket.h : 93 ] DEB connect(): 4
+[ TCPSocket.h : 103 ] INF connect(): connected to server
+[ ABXMarketConnection.h : 135 ] INF operator()(): packet with seqnum '2' is missing
+[ ABXMarketConnection.h : 135 ] INF operator()(): packet with seqnum '3' is missing
+[ ABXMarketConnection.h : 135 ] INF operator()(): packet with seqnum '4' is missing
+[ ABXMarketConnection.h : 135 ] INF operator()(): packet with seqnum '5' is missing
+[ ABXMarketConnection.h : 135 ] INF operator()(): packet with seqnum '6' is missing
+[ ABXMarketConnection.h : 135 ] INF operator()(): packet with seqnum '7' is missing
+[ ABXMarketConnection.h : 135 ] INF operator()(): packet with seqnum '9' is missing
+[ ABXMarketConnection.h : 145 ] INF operator()(): requesting packet with seqnum:11
+[ TCPSocket.h : 128 ] DEB write(): 2 bytes written on wire 
+[ SpinDispatcher.h : 71 ] DEB process(): Received data of size AAPLB at socket 4
+[ ABXMarketConnection.h : 53 ] INF newSymbol(): received new symbol packet
+[ ABXMarketConnection.h : 41 ] INF dumpPacket(): [EXCHANGE PACKET]
+[ ABXMarketConnection.h : 42 ] INF dumpPacket(): symbol:AAPL
+[ ABXMarketConnection.h : 43 ] INF dumpPacket(): side:B
+[ ABXMarketConnection.h : 44 ] INF dumpPacket(): quantity:30
+[ ABXMarketConnection.h : 45 ] INF dumpPacket(): price:98
+[ ABXMarketConnection.h : 46 ] INF dumpPacket(): seq_num:2
+[ ABXMarketConnection.h : 47 ] INF dumpPacket(): 
+[ ABXMarketConnection.h : 145 ] INF operator()(): requesting packet with seqnum:11
+[ TCPSocket.h : 128 ] DEB write(): 2 bytes written on wire 
+[ SpinDispatcher.h : 71 ] DEB process(): Received data of size AAPLS at socket 4
+[ ABXMarketConnection.h : 53 ] INF newSymbol(): received new symbol packet
+[ ABXMarketConnection.h : 41 ] INF dumpPacket(): [EXCHANGE PACKET]
+[ ABXMarketConnection.h : 42 ] INF dumpPacket(): symbol:AAPL
+[ ABXMarketConnection.h : 43 ] INF dumpPacket(): side:S
+[ ABXMarketConnection.h : 44 ] INF dumpPacket(): quantity:20
+[ ABXMarketConnection.h : 45 ] INF dumpPacket(): price:101
+[ ABXMarketConnection.h : 46 ] INF dumpPacket(): seq_num:3
+[ ABXMarketConnection.h : 47 ] INF dumpPacket(): 
+[ ABXMarketConnection.h : 145 ] INF operator()(): requesting packet with seqnum:11
+[ TCPSocket.h : 128 ] DEB write(): 2 bytes written on wire 
+[ SpinDispatcher.h : 71 ] DEB process(): Received data of size AAPLS at socket 4
+[ ABXMarketConnection.h : 53 ] INF newSymbol(): received new symbol packet
+[ ABXMarketConnection.h : 41 ] INF dumpPacket(): [EXCHANGE PACKET]
+[ ABXMarketConnection.h : 42 ] INF dumpPacket(): symbol:AAPL
+[ ABXMarketConnection.h : 43 ] INF dumpPacket(): side:S
+[ ABXMarketConnection.h : 44 ] INF dumpPacket(): quantity:10
+[ ABXMarketConnection.h : 45 ] INF dumpPacket(): price:102
+[ ABXMarketConnection.h : 46 ] INF dumpPacket(): seq_num:4
+[ ABXMarketConnection.h : 47 ] INF dumpPacket(): 
+[ ABXMarketConnection.h : 145 ] INF operator()(): requesting packet with seqnum:11
+[ TCPSocket.h : 128 ] DEB write(): 2 bytes written on wire 
+[ SpinDispatcher.h : 71 ] DEB process(): Received data of size METAB at socket 4
+[ ABXMarketConnection.h : 53 ] INF newSymbol(): received new symbol packet
+[ ABXMarketConnection.h : 41 ] INF dumpPacket(): [EXCHANGE PACKET]
+[ ABXMarketConnection.h : 42 ] INF dumpPacket(): symbol:META
+[ ABXMarketConnection.h : 43 ] INF dumpPacket(): side:B
+[ ABXMarketConnection.h : 44 ] INF dumpPacket(): quantity:40
+[ ABXMarketConnection.h : 45 ] INF dumpPacket(): price:50
+[ ABXMarketConnection.h : 46 ] INF dumpPacket(): seq_num:5
+[ ABXMarketConnection.h : 47 ] INF dumpPacket(): 
+[ ABXMarketConnection.h : 145 ] INF operator()(): requesting packet with seqnum:11
+[ TCPSocket.h : 128 ] DEB write(): 2 bytes written on wire 
+[ SpinDispatcher.h : 71 ] DEB process(): Received data of size METAS at socket 4
+[ ABXMarketConnection.h : 53 ] INF newSymbol(): received new symbol packet
+[ ABXMarketConnection.h : 41 ] INF dumpPacket(): [EXCHANGE PACKET]
+[ ABXMarketConnection.h : 42 ] INF dumpPacket(): symbol:META
+[ ABXMarketConnection.h : 43 ] INF dumpPacket(): side:S
+[ ABXMarketConnection.h : 44 ] INF dumpPacket(): quantity:30
+[ ABXMarketConnection.h : 45 ] INF dumpPacket(): price:55
+[ ABXMarketConnection.h : 46 ] INF dumpPacket(): seq_num:6
+[ ABXMarketConnection.h : 47 ] INF dumpPacket(): 
+[ ABXMarketConnection.h : 145 ] INF operator()(): requesting packet with seqnum:11
+[ TCPSocket.h : 128 ] DEB write(): 2 bytes written on wire 
+[ SpinDispatcher.h : 71 ] DEB process(): Received data of size METAS at socket 4
+[ ABXMarketConnection.h : 53 ] INF newSymbol(): received new symbol packet
+[ ABXMarketConnection.h : 41 ] INF dumpPacket(): [EXCHANGE PACKET]
+[ ABXMarketConnection.h : 42 ] INF dumpPacket(): symbol:META
+[ ABXMarketConnection.h : 43 ] INF dumpPacket(): side:S
+[ ABXMarketConnection.h : 44 ] INF dumpPacket(): quantity:20
+[ ABXMarketConnection.h : 45 ] INF dumpPacket(): price:57
+[ ABXMarketConnection.h : 46 ] INF dumpPacket(): seq_num:7
+[ ABXMarketConnection.h : 47 ] INF dumpPacket(): 
+[ ABXMarketConnection.h : 145 ] INF operator()(): requesting packet with seqnum:11
+[ TCPSocket.h : 128 ] DEB write(): 2 bytes written on wire 
+[ SpinDispatcher.h : 71 ] DEB process(): Received data of size MSFTS at socket 4
+[ ABXMarketConnection.h : 53 ] INF newSymbol(): received new symbol packet
+[ ABXMarketConnection.h : 41 ] INF dumpPacket(): [EXCHANGE PACKET]
+[ ABXMarketConnection.h : 42 ] INF dumpPacket(): symbol:MSFT
+[ ABXMarketConnection.h : 43 ] INF dumpPacket(): side:S
+[ ABXMarketConnection.h : 44 ] INF dumpPacket(): quantity:15
+[ ABXMarketConnection.h : 45 ] INF dumpPacket(): price:155
+[ ABXMarketConnection.h : 46 ] INF dumpPacket(): seq_num:9
+[ ABXMarketConnection.h : 47 ] INF dumpPacket(): 
+[ ABXMarketConnection.h : 181 ] DEB start(): [
+    {
+        "symbol" : "AAPL",
+        "side" : "B",
+        "quantity" : 50,
+        "price" : 100,
+        "seq_num" : 1,
+    },
+    {
+        "symbol" : "AAPL",
+        "side" : "B",
+        "quantity" : 30,
+        "price" : 98,
+        "seq_num" : 2,
+    },
+    {
+        "symbol" : "AAPL",
+        "side" : "S",
+        "quantity" : 20,
+        "price" : 101,
+        "seq_num" : 3,
+    },
+    {
+        "symbol" : "AAPL",
+        "side" : "S",
+        "quantity" : 10,
+        "price" : 102,
+        "seq_num" : 4,
+    },
+    {
+        "symbol" : "META",
+        "side" : "B",
+        "quantity" : 40,
+        "price" : 50,
+        "seq_num" : 5,
+    },
+    {
+        "symbol" : "META",
+        "side" : "S",
+        "quantity" : 30,
+        "price" : 55,
+        "seq_num" : 6,
+    },
+    {
+        "symbol" : "META",
+        "side" : "S",
+        "quantity" : 20,
+        "price" : 57,
+        "seq_num" : 7,
+    },
+    {
+        "symbol" : "MSFT",
+        "side" : "B",
+        "quantity" : 25,
+        "price" : 150,
+        "seq_num" : 8,
+    },
+    {
+        "symbol" : "MSFT",
+        "side" : "S",
+        "quantity" : 15,
+        "price" : 155,
+        "seq_num" : 9,
+    },
+    {
+        "symbol" : "MSFT",
+        "side" : "B",
+        "quantity" : 20,
+        "price" : 148,
+        "seq_num" : 10,
+    },
+]
+
