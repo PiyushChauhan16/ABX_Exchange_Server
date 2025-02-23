@@ -9,6 +9,16 @@ start client
 
 NOTE: There will be a file called "output.log" which contains the final json and other relevant logs which are same as the output in the console. The default behaviour is to have file and console based logging enabled.
 
+# Compiler
+```
+> g++ --version                                                                                                                                                     g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0            
+```
+
+# CPP Version
+```
+C++ 17
+```
+
 # Motivation
 ABX_EXCHANGE_SERVER simulates a real-world HFT client-server architecture wherein client is responsible for building a json file containing an array of symbols received from the server (exchange).
 
